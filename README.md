@@ -72,13 +72,9 @@ This dataset consists of 11 features and a target variable. It has 6 nominal var
 #### Target variable
 **12. target:** It is the target variable which we have to predict 1 means patient is suffering from heart risk and 0 means patient is normal.
 
-### Note: For Viewing Steps [2-13], please click the link given below.
 
-#### Link: [Remaining Steps](https://github.com/EmamulHassan/heart_disease_detection_ml/blob/main/Project%20445%20demo.ipynb)
-    
+## 2. Importing Library<a id='lib-dataset'></a>    
 
-## 1. Importing Library<a id='lib-dataset'></a>    
-### importing libraries
 import warnings<br>
 warnings.filterwarnings('ignore') <br>
 
@@ -94,7 +90,7 @@ import seaborn as sns<br>
 
 from sklearn.model_selection import train_test_split
 
-###model validation
+### model validation
 from sklearn.metrics import log_loss,roc_auc_score,precision_score,f1_score,recall_score,roc_curve,auc<br>
 from sklearn.metrics import classification_report, confusion_matrix,accuracy_score,fbeta_score,matthews_corrcoef<br>
 from sklearn import metrics
@@ -118,6 +114,8 @@ from sklearn.model_selection import cross_val_score<br>
 from sklearn.naive_bayes import GaussianNB<br>
 from sklearn.metrics import roc_curve, roc_auc_score<br>
 
+## Note: For Viewing Steps [3-13], please click the link given below.
 
+### Link: [Remaining Steps](https://github.com/EmamulHassan/heart_disease_detection_ml/blob/main/Project%20445%20demo.ipynb)
     
     
