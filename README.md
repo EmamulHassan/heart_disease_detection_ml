@@ -74,5 +74,5 @@ This dataset consists of 11 features and a target variable. It has 6 nominal var
 
 ### Note: For Viewing Steps [2-13], please click the link given below.
 
-#### Link: [Remaining Steps](https://github.com/EmamulHassan/heart_disease_detection_ml/blob/main/Project%20445%20demo.ipynb/?target=_blank)
+#### Link: [Remaining Steps](https://github.com/EmamulHassan/heart_disease_detection_ml/blob/main/Project%20445%20demo.ipynb)
     
