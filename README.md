@@ -71,40 +71,8 @@ This dataset consists of 11 features and a target variable. It has 6 nominal var
 
 #### Target variable
 **12. target:** It is the target variable which we have to predict 1 means patient is suffering from heart risk and 0 means patient is normal.
+
+### Note: For Viewing Steps [2-13], please click the link given below.
+
+#### Link: [Remaining Steps](https://github.com/EmamulHassan/heart_disease_detection_ml/blob/main/Project%20445%20demo.ipynb)
     
-    
-import warnings
-warnings.filterwarnings('ignore')
-
-# data wrangling & pre-processing
-import pandas as pd<br>
-import numpy as np<br>
-
-# data visualization
-import matplotlib.pyplot as plt<br>
-%matplotlib inline<br>
-import seaborn as sns<br>
-
-from sklearn.model_selection import train_test_split
-
-#model validation
-from sklearn.metrics import log_loss,roc_auc_score,precision_score,f1_score,recall_score,roc_curve,auc<br>
-from sklearn.metrics import classification_report, confusion_matrix,accuracy_score,fbeta_score,matthews_corrcoef<br>
-from sklearn import metrics<br>
-
-# cross validation
-from sklearn.model_selection import StratifiedKFold<br>
-
-# machine learning algorithms
-from sklearn.linear_model import LogisticRegression<br>
-from sklearn.ensemble import RandomForestClassifier,VotingClassifier,AdaBoostClassifier,GradientBoostingClassifier,RandomForestClassifier,ExtraTreesClassifier<br>
-from sklearn.neural_network import MLPClassifier<br>
-from sklearn.tree import DecisionTreeClassifier<br>
-from sklearn.linear_model import SGDClassifier<br>
-from sklearn.svm import SVC <br>
-#import xgboost as xgb<br>
-
-from scipy import stats<br>
- 
-    
- 
