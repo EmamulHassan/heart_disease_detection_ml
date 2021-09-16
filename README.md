@@ -26,7 +26,7 @@
   Email: emamul.hassan@northsouth.edu <br><br>
   Date prepared: 16/09/2021</h3><br><br><br>
   
-  # Heart Disease Prediction using Machine Learning Approach
+  # Heart Disease Prediction Using Machine Learning Approach:
 
 
 Heart Disease (including Coronary Heart Disease, Hypertension, and Stroke) remains the No. 1
@@ -74,5 +74,5 @@ This dataset consists of 11 features and a target variable. It has 6 nominal var
 
 ### Note: For Viewing Steps [2-13], please click the link given below.
 
-#### Link: [Remaining Steps](https://github.com/EmamulHassan/heart_disease_detection_ml/blob/main/Project%20445%20demo.ipynb)
+#### Link: [Remaining Steps](https://github.com/EmamulHassan/heart_disease_detection_ml/blob/main/Project%20445%20demo.ipynb){:target="_blank"}
     
