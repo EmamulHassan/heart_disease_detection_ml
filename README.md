@@ -40,7 +40,7 @@ In this notebook we will try to unleash useful insights using this heart disease
 This notebook is divided into 13 major steps which are as follows:
 
 1. [Data description](#data-desc)
-2. Importing Library and Dataset
+2. [Importing Library](#lib-dataset)
 3. Loading Dataset
 4. Statistical Analysis of Dataset
 5. Exploratory Data Analysis EDA (Categorical Variables)
@@ -75,4 +75,49 @@ This dataset consists of 11 features and a target variable. It has 6 nominal var
 ### Note: For Viewing Steps [2-13], please click the link given below.
 
 #### Link: [Remaining Steps](https://github.com/EmamulHassan/heart_disease_detection_ml/blob/main/Project%20445%20demo.ipynb)
+    
+
+## 1. Importing Library<a id='lib-dataset'></a>    
+### importing libraries
+import warnings<br>
+warnings.filterwarnings('ignore') <br>
+
+import pandas as pd<br>
+import numpy as np<br>
+
+import matplotlib.pyplot as plt<br>
+%matplotlib inline<br>
+import seaborn as sns<br><br>
+from scipy import stats<br>
+
+import seaborn as sns<br>
+
+from sklearn.model_selection import train_test_split
+
+###model validation
+from sklearn.metrics import log_loss,roc_auc_score,precision_score,f1_score,recall_score,roc_curve,auc<br>
+from sklearn.metrics import classification_report, confusion_matrix,accuracy_score,fbeta_score,matthews_corrcoef<br>
+from sklearn import metrics
+
+### cross validation
+from sklearn.model_selection import StratifiedKFold<br>
+
+### machine learning algorithms
+from sklearn.linear_model import LogisticRegression<br>
+from sklearn.ensemble import RandomForestClassifier,VotingClassifier,AdaBoostClassifier,GradientBoostingClassifier,RandomForestClassifier,ExtraTreesClassifier<br>
+from sklearn.neural_network import MLPClassifier<br>
+from sklearn.tree import DecisionTreeClassifier<br>
+from sklearn.linear_model import SGDClassifier<br>
+from sklearn.svm import SVC<br>
+
+from sklearn.preprocessing import MinMaxScaler<br>
+
+from sklearn import model_selection<br>
+from sklearn.model_selection import cross_val_score<br>
+
+from sklearn.naive_bayes import GaussianNB<br>
+from sklearn.metrics import roc_curve, roc_auc_score<br>
+
+
+    
     
