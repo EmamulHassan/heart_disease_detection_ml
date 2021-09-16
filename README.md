@@ -40,18 +40,18 @@ In this notebook we will try to unleash useful insights using this heart disease
 This notebook is divided into 13 major steps which are as follows:
 
 1. [Data description](#data-desc)
-2. [Importing Library and Dataset]
-3. [Loading Dataset]
-4. [Statistical Analysis of Dataset]
-5. [Exploratory Data Analysis EDA (Categorical Variables)]
-6. [Exploratory Data Analysis EDA (Numerical Variables)]
-7. [Removing Outliers (Data Cleaning)]
-8. [One Hot Encoding]
-9. [Correlation Matrix]
-10. [Training and Testing Data Spliting]
-11. [Data Normalization]
-12. [Model Building and Evaluation]
-13. [ROC and AUC]
+2. Importing Library and Dataset
+3. Loading Dataset
+4. Statistical Analysis of Dataset
+5. Exploratory Data Analysis EDA (Categorical Variables)
+6. Exploratory Data Analysis EDA (Numerical Variables)
+7. Removing Outliers (Data Cleaning)
+8. One Hot Encoding
+9. Correlation Matrix
+10. Training and Testing Data Spliting
+11. Data Normalization
+12. Model Building and Evaluation
+13. ROC and AUC
 
 ## 1. Dataset description<a id='data-desc'></a>
 
