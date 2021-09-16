@@ -10,9 +10,9 @@
 
 
 
-  <h1 align="center">Project Name: Heart Disease Prediction</h1>
+  <h1 align="center">Project Name: Heart Disease Prediction Using Machine Learning</h1>
   <h2 align ="center">Course Number: CSE 445<br>
-  Section: 03</br>
+  Section: 04</br>
   Semester: Summer 2021</br><br>
   Faculty Name: Intisar Tahmid Naheen (ITN)</h2>
   <h3 align="center">Student Name: Tanjil Mahmud<br>
