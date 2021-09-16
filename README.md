@@ -35,23 +35,23 @@ cause of death in the US.The Heart Disease and Stroke Statistics—2019 Update f
 * On average, someone dies of CVD every 38 seconds. About 2,303 deaths from CVD each day, based on 2016 data.
 * On average, someone dies of a stroke every 3.70 minutes. About 389.4 deaths from stroke each day, based on 2016 data.
 
-In this notebook i will try to unleash useful insights using this heart disease datasets and by building stacked ensemble model by combining the power of best performing machine learning algorithms.
+In this notebook we will try to unleash useful insights using this heart disease datasets and by building stacked ensemble model by combining the power of best performing machine learning algorithms.
 
 This notebook is divided into 13 major steps which are as follows:
 
 1. [Data description](#data-desc)
-2. [Importing Libraries & setting up environment](#imp-lib)
-3. [Loading dataset](#data-load)
-4. [Data Cleaning & Preprocessing](#data-prep)
-5. [Exploratory Data Analysis](#data-eda)
-6. [OUtlier Detection & Removal](#data-out)
-7. [Training & Test Split](#data-train)
-8. [Cross Validation](#cross-val)
-9. [Model Building](#data-model)
-10. [Model evaluation & comparison](#model-eval)<br>
-11. [Feature Selection](#model-eval)<br>
-12. [Model Evaluation](#model-inter)
-13. [Conclusion](#data-conc)  
+2. [Importing Library and Dataset]
+3. [Loading Dataset]
+4. [Statistical Analysis of Dataset]
+5. [Exploratory Data Analysis EDA (Categorical Variables)]
+6. [Exploratory Data Analysis EDA (Numerical Variables)]
+7. [Removing Outliers (Data Cleaning)]
+8. [One Hot Encoding]
+9. [Correlation Matrix]
+10. [Training and Testing Data Spliting]
+11. [Data Normalization]
+12. [Model Building and Evaluation]
+13. [ROC and AUC]
 
 ## 1. Dataset description<a id='data-desc'></a>
 
